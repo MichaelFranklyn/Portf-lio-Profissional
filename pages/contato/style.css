@@ -1,0 +1,97 @@
+.menu .cont{
+    color: #5FB4A2;
+}
+
+.informacao{
+    width: 1110px;
+    height: 354px;
+    display: flex;
+    padding: 49px 0px;
+}
+
+.info1 {
+    width: 350px;
+    height: 42px;
+    margin-right: 125px;
+}
+
+.info1 h2 {
+    letter-spacing: -0.357143px;
+}
+
+.info2 {
+    width: 635px;
+    height: 180px;
+}
+
+.info2 p {
+    font-size: 16px;
+    margin-bottom: 54px;
+}
+
+.info2 img {
+    margin-right: 15px;
+    width: 24px;
+    height: 19.5px;
+}
+
+.informacao2 {
+    width: 1110px;
+    height: 582px;
+    display: flex;
+    box-sizing: border-box;
+    padding: 47px 0px 189px 0px;
+}
+
+.caixas {
+    width: 635px;
+    height: 426px;
+    display: flex;
+    flex-direction: column;
+}
+
+.caixas label {
+    font-weight: bold;
+    font-size: 13px;
+    margin-bottom: 8px;
+}
+
+.caixas input {
+    all:unset;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 635px;
+    margin-bottom: 24px;
+    background: hsl(245, 10%, 22%,0.1);
+    mix-blend-mode: normal;
+    color: black;
+}
+
+.tipo1 input {
+    height: 48px;
+}
+
+.tipo2 input {
+    height: 96px;
+}
+
+.caixas input:focus { 
+    border: 2px solid #000000;
+}
+
+.caixas button {
+    all:unset;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 200px;
+    height: 48px;
+    background: #203A4C;
+    color: #FFFFFF;
+}
+
+.caixas button:hover {
+    background: #5FB4A2;
+} 

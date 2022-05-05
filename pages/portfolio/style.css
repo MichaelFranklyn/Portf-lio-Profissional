@@ -1,0 +1,37 @@
+.estilo1 , .estilo2 {
+    height: 500px;
+    width: 1015px;
+    margin: 0px 212px 80px 212px;
+}
+
+.cardEstilo1, .cardEstilo2 {
+    width: 350px;
+    height: 500px;
+}
+
+.imagemEstilo1 img, .imagemEstilo2 img {
+    width: 540px;
+    height: 500px;
+}
+
+.imagemEstilo2 img {
+    margin-left: 140px;
+}
+
+.cardEstilo1 h2, .cardEstilo2 h2 {
+    margin-top: 103px;
+}
+
+.cardEstilo1 p, .cardEstilo2 p {
+    margin-bottom: 54px;
+}
+
+.cardEstilo1 button, .cardEstilo2 button {
+    height: 48px;
+    width: 175px;
+}
+
+.base {
+    width: 1015px;
+    margin: 70px 212px 150px 212px;
+}

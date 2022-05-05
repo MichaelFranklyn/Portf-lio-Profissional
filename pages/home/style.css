@@ -1,0 +1,85 @@
+header {
+    margin-bottom: 54px;
+}
+
+.menu .home  {
+    color: #5FB4A2;
+}
+
+.meio1 {
+    height: 600px;
+    width: 1110px;
+    background-image: url("./../../assets/home/image-homepage-hero.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin: 0px 164px 149px 164px;
+}
+
+.cardPequeno {
+    width: 445px;
+    background: #FAFAFA;
+}
+
+.parte1 {
+    height: 309px;
+    padding: 54px 27px;
+}
+
+.parte2 button {
+    all: unset;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    background: hsl(205, 41%, 21%,0.95);
+    width: 200px;
+    height: 48px;
+}
+
+.parte2 button:hover {
+    background: #5FB4A2;
+}
+
+.transparente {
+    height: 48px;
+    width: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0, 0, 0,0.1);
+}
+
+.infobotao1 span {
+    margin-left: 36px;
+}
+
+.estilo1 {
+    height: 600px;
+    width: 1110px;
+    margin: 0px 164px 150px 164px;
+}
+
+.cardEstilo1 {
+    width: 430px;
+    height: 600px;
+}
+
+.imagemEstilo1 img {
+    width: 540px;
+    height: 600px;
+}
+
+.cardEstilo1 h2 {
+    margin-top: 51px;
+}
+
+.cardEstilo1 p {
+    margin-bottom: 24px;
+}
+
+.cardEstilo1 button {
+    margin: 0px auto; 
+    height: 48px;
+    width: 208px;
+}

@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #FAFAFA;
+    min-height: 100vh;
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+h1, h2, h3 {
+    color: #33323D;
+    font-family: 'Ibarra Real Nova', serif;
+}
+
+h6, p, label, a, span {
+    font-family: 'Public Sans', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 50px;
+    letter-spacing: -0.446429px;
+}
+
+h2 {
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.357143px;
+}
+
+h3 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: -0.285714px;
+}
+
+h6 {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    color: #5FB4A2;
+}
+
+p, label {
+    line-height: 30px;
+    color: #33323D;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+a, span {
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+a {
+    color: #ffffff;
+}
+
+button {
+    cursor: pointer;
+}
+
+header {
+    width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 164px;
+    margin-top: 64px;
+    margin-bottom: 94px;
+}
+
+.menu {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu .port  {
+    color: #5FB4A2;
+}
+
+.menu a {
+    color: #33323D;
+}
+
+.base {
+    height: 84px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1110px;
+    margin: 0px 164px 150px 164px;
+}
+
+.base h2 {
+    width: 367px;
+}
+
+.cardEstilo1 button, .cardEstilo2 button, .base button, .design1 button {
+    all:unset;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #33323D;
+    color: #33323D;
+}
+
+.base button {   
+    width: 168px;
+    height: 48px;
+    padding: 17px 50px;
+}
+
+.base button:hover ,.cardEstilo1 button:hover, .cardEstilo2 button:hover, .design1 button:hover {
+    background-color: #33323D;
+    color: #FAFAFA;
+}
+
+footer {
+    height: 80px;
+    width: 1440px;
+    background: #33323D;
+    display: flex;
+    align-items: center;
+    padding: 0px 165px;
+}
+
+.logoClaro {
+    margin-right: 48px;
+}
+
+footer .itensLink {
+    margin-right: 42px;
+}
+
+.git img {
+    margin-left: 576px;
+    margin-right: 15px;
+}
+
+.twitter img {
+    margin-right: 15px;
+}
+
+.estilo1, .estilo2 {
+    display: flex;
+}
+
+.cardEstilo1, .cardEstilo2, .design1, .carrossel, .informacao{
+    border-bottom: 1px solid hsl(245, 10%, 22%,15%); 
+    border-top: 1px solid hsl(245, 10%, 22%,15%);  
+}
+
+.imagemEstilo1 img {
+    margin-right: 140px;
+}
+
+.cardEstilo1 h2, .cardEstilo2 h2 {
+    margin-bottom: 28px;
+}
+
+.cardEstilo1 p, .cardEstilo2 p {
+    font-size: 16px;
+}
+
+.imagemCentral {
+    width: 1110px;
+    height: 500px;
+    background-size: cover;
+    margin-bottom: 115px;
+}
+
+.conteudoCentral {
+    width: 1110px;
+    height: 1192px;
+    display: flex;     
+    margin-bottom: 64px;
+}
+
+.design1 {
+    width: 350px;
+    height: 498px;
+    margin-right: 125px;
+}
+
+.design1 h2 {
+    margin-top: 48px;
+    margin-bottom: 29px;
+}
+
+.design1 p {
+    font-size: 16px;
+    margin-bottom: 53px;
+}
+
+.design1 h6 {
+    margin-bottom: 16px;
+}
+
+.design1 button {
+    width: 178px;
+    height: 48px;  
+    margin-top: 16px;
+}
+
+.design2 {
+    width: 635px;
+    height: 1192px;
+}
+
+.cardDesign2-1 h3 {
+    margin-bottom: 28px;
+}
+
+.cardDesign2-1 p {
+    font-size: 15px;
+    margin-bottom: 40px;
+} 
+
+.cardDesign2-2 h3 {
+    margin-bottom: 28px;
+}
+
+.imagens img {
+    width: 635px;
+    height: 400px;
+    margin-bottom: 32px;
+}
+
+.carrossel {
+    width: 1110px;
+    height: 132px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 115px;
+}
+
+.voltar, .passar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.voltar p, .passar p {
+    font-size: 16px;
+    opacity: 0.5;
+}
+
+.voltar img {
+    margin-right: 32px;
+}
+
+.passar img {
+    margin-left: 32px;
+}
